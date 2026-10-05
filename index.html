@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zukai Developer</title>
+<meta name="description" content="Zukai Developer - Web Developer & Bot Maker">
+<link rel="icon" href="pp.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress"></div>
+<div class="glow"></div>
+<div class="blob b1"></div><div class="blob b2"></div>
+
+<header class="nav">
+  <a href="#home" class="logo">zukai<span>.dev</span></a>
+  <nav>
+    <a href="#about" data-i18n="nav_about">Tentang</a>
+    <a href="#skill" data-i18n="nav_skill">Skill</a>
+    <a href="#projects" data-i18n="nav_projects">Proyek</a>
+    <a href="#contact" data-i18n="nav_contact">Kontak</a>
+  </nav>
+  <div class="tools">
+    <button id="lang" class="chip-btn" aria-label="Ganti bahasa">EN</button>
+    <button id="theme" class="chip-btn" aria-label="Ganti tema">🌙</button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="banner reveal">
+    <img src="banner.jpg" alt="Banner Zukai">
+    <div class="tint"></div>
+  </div>
+  <div class="who reveal">
+    <div class="pp"><img src="pp.jpg" alt="Foto profil Zukai Developer"></div>
+    <h1>Zukai Developer</h1>
+    <p class="role"><span id="typed"></span><i class="caret"></i></p>
+    <p class="lead" data-i18n="hero_lead">Developer web yang pemalas, tapi ide-idenya nggak habis-habis.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://wa.me/6281936573304?text=Halo%20Zukai" target="_blank" rel="noopener" data-i18n="btn_wa">Chat WhatsApp</a>
+      <a class="btn ghost" href="#projects" data-i18n="btn_projects">Lihat proyek</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="sec">
+  <h2 class="reveal" data-i18n="about_t">Tentang aku</h2>
+  <div class="about-grid">
+    <p class="reveal" data-i18n="about_p1">Aku developer web yang pemalas tapi punya ide yang banyak. Kadang aku juga ngedit gabut di Alight Motion.</p>
+    <p class="reveal" data-i18n="about_p2">Aku sering bikin proyek website baru yang mirip web publik lainnya, tapi tampilannya beda dan aku tambahin fitur lain yang berguna kalau dibutuhkan.</p>
+    <div class="facts reveal">
+      <div><b>Zukai Developer</b><small data-i18n="f_name">Nama</small></div>
+      <div><b>Wonogiri</b><small data-i18n="f_city">Asal</small></div>
+      <div><b>Web &amp; Bot</b><small data-i18n="f_do">Bikin</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="skill" class="sec">
+  <h2 class="reveal" data-i18n="skill_t">Skill &amp; hobi</h2>
+  <div class="marquee reveal"><div class="track">
+    <span>HTML</span><span>Node.js</span><span>CSS</span><span>Bot Maker</span><span>Alight Motion</span>
+    <span>HTML</span><span>Node.js</span><span>CSS</span><span>Bot Maker</span><span>Alight Motion</span>
+  </div></div>
+  <div class="cards three">
+    <article class="card tilt reveal"><div class="ico">🎮</div><h3 data-i18n="h1_t">Main game</h3><p data-i18n="h1_p">Cara paling enak buat istirahat dari ngoding.</p></article>
+    <article class="card tilt reveal"><div class="ico">📖</div><h3 data-i18n="h2_t">Nonton manhwa</h3><p data-i18n="h2_p">Sumber ide dan penghilang gabut.</p></article>
+    <article class="card tilt reveal"><div class="ico">🎬</div><h3 data-i18n="h3_t">Edit video</h3><p data-i18n="h3_p">Ngedit santai di Alight Motion.</p></article>
+  </div>
+</section>
+
+<section id="projects" class="sec">
+  <h2 class="reveal" data-i18n="proj_t">Proyek</h2>
+  <div class="cards two">
+    <article class="card tilt reveal project">
+      <div class="ico">✉️</div>
+      <h3>Zukai Temporary</h3>
+      <p data-i18n="p1_p">Email sementara, buat kamu yang nggak mau pakai email utama.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>Node.js</span></div>
+      <a class="btn primary" href="https://zukaitemp.vercel.app/" target="_blank" rel="noopener" data-i18n="btn_open">Buka web</a>
+    </article>
+    <article class="card tilt reveal project soon">
+      <div class="ico">🛠️</div>
+      <h3 data-i18n="p2_t">Proyek berikutnya</h3>
+      <p data-i18n="p2_p">Lagi dikerjain. Idenya masih banyak.</p>
+      <div class="tags"><span data-i18n="soon">Segera hadir</span></div>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <h2 class="reveal" data-i18n="contact_t">Hubungi aku</h2>
+  <div class="links">
+    <a class="btn link wa reveal" href="https://wa.me/6281936573304?text=Halo%20Zukai" target="_blank" rel="noopener">WhatsApp<small>+62 819-3657-3304</small></a>
+    <a class="btn link reveal" href="https://tiktok.com/@feyzzie1" target="_blank" rel="noopener">TikTok<small>@feyzzie1</small></a>
+    <a class="btn link reveal" href="https://github.com/kyedeveloper" target="_blank" rel="noopener">GitHub<small>kyedeveloper</small></a>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><span>© <span id="yr"></span> Zukai Developer</span><button id="top" class="chip-btn" aria-label="Ke atas">↑</button></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
